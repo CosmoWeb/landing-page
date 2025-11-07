@@ -70,3 +70,47 @@ button{
     border-radius: 5px;
     border-color: #3882f6;
 }
+
+.info{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pics{
+    display:flex;
+    align-items: center;
+    padding:0px 15%;
+    gap:40px;
+    justify-content: space-between;
+}
+
+.pic-text{
+    flex:1;
+    width:10%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.info-pic{
+    flex:1;
+    width:100%;
+    height:auto;
+    border:2px solid #3882f6;
+    border-radius: 20px;
+}
+
+.pic-text p{
+    font-size:18px;
+    color:#1f2937;
+    text-align: center;
+}
+
+.subtitle{
+    padding: 30px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
