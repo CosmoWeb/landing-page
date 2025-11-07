@@ -146,9 +146,12 @@ button{
     display: flex;
     background-color: #3882f6;
     margin:5% 10%;
-    gap:100px;
+    gap:30px;
     padding:5% 10%;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+    border-radius: 15px;
 }
 
 .action-button{
